@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container" >
+	<div class="col-sm-12  hdr" style="text-align:center">
+      <h2> <span >Babu Banarasi Das University, Lucknow </sapn><br>   
+      </h2>
+    </div>
+  <h4 style="text-align:center">Result Details of 1210432345</h4>
+           
+<table class="table">
+	<thead>
+		<th>Session</th><th>Year</th><th>Semester</th><th>Exam Type</th><th></th>
+	</thead>
+<tbody>
+
+	<tr>
+		<form action="result-display.php" method="post">
+		<td>2022-23</td><td>2</td><td>4</td><td>MAIN</td><td>
+			<input type="hidden" name="session" value="2022-23">
+			<input type="hidden" name="year" value="2">
+			<input type="hidden" name="urollno" value="1210432345">
+			<input type="hidden" name="semester" value="4">
+			<input type="hidden" name="examtype" value="MAIN">
+			<input type="submit" name="btnrst" value="View">
+		</td>
+	</form>
+	</tr>
+
+		
+
+		
+</tbody>
+</table>
+</div>
+</body>
+</html>
